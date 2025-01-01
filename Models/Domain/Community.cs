@@ -7,5 +7,5 @@ public class Community
     public string CommunityName { get; set; }
     public int OrganizerId { get; set; }
     public DateTime CreatedAt { get; set; }
-    public string Description { get; set; }
+    public string? Description { get; set; }
 }

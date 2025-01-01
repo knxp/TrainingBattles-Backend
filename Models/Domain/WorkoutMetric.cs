@@ -6,7 +6,7 @@ public class WorkoutMetric
     public int MetricId { get; set; }
     public int WorkoutTypeId { get; set; }
     public string MetricName { get; set; }
-    public string MetricUnit { get; set; }
+    public string? MetricUnit { get; set; }
     public bool IsPrimary { get; set; }
 
     // Navigation properties
